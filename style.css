@@ -53,7 +53,31 @@ h2{
     background-position: right;
     background-position-y: 130px; 
 }
+.experience-area{
+    background-image: url("images/fancy bg/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;    
+}
 .exp-item{
     width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 25px;
+    border-radius: 7px;
+    box-shadow: 10px 10px 40px gray;
+    border-left:
 }
-
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#full-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient( rgb(255, 60, 0), orange);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    color: grey;
+}
